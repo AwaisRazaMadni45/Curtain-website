@@ -106,7 +106,7 @@ export function Products() {
                     onClick={() => setSelectedProduct(product)}
                     className="group bg-white rounded-2xl overflow-hidden shadow-md card-hover text-start border border-cream-100"
                   >
-                    <div className="relative overflow-hidden aspect-[4/5]">
+                    <div className="relative overflow-hidden aspect-square">
                       <img
                         src={product.images?.[0] || ''}
                         alt={product.name[lang]}

@@ -59,7 +59,7 @@ export function ProductModal({ product, onClose, onViewAll }: ProductModalProps)
         onClick={(e) => e.stopPropagation()}
       >
         {/* Image area */}
-        <div className="relative bg-charcoal-900 shrink-0" style={{ aspectRatio: '4/3' }}>
+        <div className="relative bg-charcoal-900 shrink-0 aspect-square">
           <img
             src={imageSrc}
             alt={product.name[lang]}
