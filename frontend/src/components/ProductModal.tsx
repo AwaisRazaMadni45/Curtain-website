@@ -63,7 +63,7 @@ export function ProductModal({ product, onClose, onViewAll }: ProductModalProps)
           <img
             src={imageSrc}
             alt={product.name[lang]}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
 
           {/* Close */}
